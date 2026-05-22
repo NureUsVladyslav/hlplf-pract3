@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Практична робота №3"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/task1Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Завдання 1. Різниця чисел" />
+
+    <Button
+        android:id="@+id/task2Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Завдання 2. Гра «Вгадай число»"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/task3Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Завдання 3. Калькулятор на 6 операцій"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/task4Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Завдання 4. Калькулятор римських чисел"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>

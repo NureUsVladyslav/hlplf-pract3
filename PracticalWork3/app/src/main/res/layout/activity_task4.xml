@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/task4ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/task4Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/taskTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Завдання 4"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/taskDescriptionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Калькулятор на 4 дії для римських чисел"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/helpTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Приклади римських чисел: I, V, X, L, C, D, M, IX, XIV, XX, XL, C"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:id="@+id/firstRomanEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введіть перше римське число"
+            android:inputType="textCapCharacters"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/secondRomanEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введіть друге римське число"
+            android:inputType="textCapCharacters"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Додавання +" />
+
+        <Button
+            android:id="@+id/subtractButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Віднімання -"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/multiplyButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Множення *"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/divideButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ділення /"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/resultTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Результат з'явиться тут"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="32dp" />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Повернутися в меню" />
+
+    </LinearLayout>
+
+</ScrollView>

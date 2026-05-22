@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/task3ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/task3Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/taskTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Завдання 3"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/taskDescriptionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Калькулятор на 6 операцій із збереженням історії у файл"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:id="@+id/firstNumberEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введіть перше число"
+            android:inputType="numberDecimal|numberSigned"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/secondNumberEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введіть друге число"
+            android:inputType="numberDecimal|numberSigned"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Додавання +" />
+
+        <Button
+            android:id="@+id/subtractButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Віднімання -"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/multiplyButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Множення *"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/divideButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ділення /"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/remainderButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Остача від ділення %"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/powerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Піднесення до степеня ^"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/resultTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Результат з'явиться тут"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/showHistoryButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Показати історію з файлу" />
+
+        <Button
+            android:id="@+id/clearHistoryButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Очистити історію"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/historyTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Історія операцій:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/historyTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Історія операцій порожня"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Повернутися в меню" />
+
+    </LinearLayout>
+
+</ScrollView>
